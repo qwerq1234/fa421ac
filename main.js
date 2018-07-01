@@ -90,7 +90,7 @@ function initScene() {
 
     w.snd = new T3.Audio(w.lstn);
     w.aL = new T3.AudioLoader();
-    w.aL.load('2t.mp3', function(buffer) {
+    w.aL.load('2.mp3', function(buffer) {
         console.log("Loaded");
         snd.setBuffer(buffer);
         snd.setLoop(false);
